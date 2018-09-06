@@ -1,0 +1,8 @@
+#!/usr/bin/julia
+
+listNaturalNumbers = collect(1:1:10)
+
+for i in listNaturalNumbers
+	println(i)
+	sumOfSquares += listNaturalNumbers[i]
+end
